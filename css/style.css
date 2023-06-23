@@ -1155,6 +1155,13 @@ cp_qa *, .cp_qa *:after, .cp_qa *:before {
         margin: 0 auto;
         width: 300px;
     }
-      
+	
+    .card-media-object-container {
+        background: none;
+        float: left;
+        height: 100%;
+        width: 35%;
+        position: relative;
+      }
 
 }
