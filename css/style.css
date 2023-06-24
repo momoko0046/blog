@@ -388,6 +388,7 @@ aside {
     color: #333333;
     font-weight: 600;
     cursor: pointer;
+    
 }
 
 .qa-001 summary::before,
@@ -401,6 +402,7 @@ aside {
 .qa-001 summary::before {
     color: #75bbff;
     content: "Q";
+    
 }
 
 .qa-001 summary::after {
@@ -408,6 +410,7 @@ aside {
     width: 7px;
     height: 7px;
     margin-left: 10px;
+    padding: 0 2px;
     border-bottom: 3px solid #333333b3;
     border-right: 3px solid #333333b3;
     content: '';
