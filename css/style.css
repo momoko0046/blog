@@ -387,8 +387,7 @@ aside {
     padding: 1em 2em 1em 3em;
     color: #333333;
     font-weight: 600;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .qa-001 summary::before,
@@ -401,8 +400,7 @@ aside {
 
 .qa-001 summary::before {
     color: #75bbff;
-    content: "Q";
-    
+    content: "Q";   
 }
 
 .qa-001 summary::after {
@@ -531,7 +529,7 @@ aside p {
 }
 
 .toc-005 li {
-    padding: 5px 0;
+    padding: 5px 5px;
     font-weight: 600;
 }
 
@@ -889,7 +887,7 @@ cp_qa *, .cp_qa *:after, .cp_qa *:before {
 	text-align: center;
 }
 .cp_qa .cp_actab input[type=checkbox] + label::after {
-	content: '▼';
+	content: '⬇︎';
 }
 .cp_qa .cp_actab input[type=checkbox]:checked + label::after {
 	-webkit-transform: rotateX(180deg);
